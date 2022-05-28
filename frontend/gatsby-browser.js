@@ -1,1 +1,9 @@
-import "./src/styles/global.css"
+import "./src/styles/global.css";
+import "./src/styles/bootstrap.min.css";
+import "./src/styles/font-awesome.min.css";
+import "./src/styles/Pe-icon-7-stroke.css";
+import "./src/styles/animate.min.css";
+import "./src/styles/swiper-bundle.min.css";
+import "./src/styles/nice-select.css";
+import "./src/styles/magnific-popup.min.css";
+import "./src/styles/ion.rangeSlider.min.css";
