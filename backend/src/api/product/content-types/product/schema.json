@@ -30,7 +30,7 @@
       "type": "richtext"
     },
     "price": {
-      "type": "biginteger"
+      "type": "float"
     },
     "amazon_url": {
       "type": "string"
@@ -42,14 +42,15 @@
       "mappedBy": "product"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
