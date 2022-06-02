@@ -37,9 +37,9 @@
     },
     "product_categories": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::product-category.product-category",
-      "mappedBy": "product"
+      "mappedBy": "products"
     },
     "images": {
       "type": "media",
